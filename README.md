@@ -1,5 +1,5 @@
 
-# Repositório de projetos do curso de Ciência de Dados
+# Repositório de projetos do curso de Ciência de Dados da Practicum
 
 Este repositório contém os projetos realizados durante o curso de Ciência de Dados, organizados por sprint. O curso é dividido em vários sprints, cada um com um tópico específico relacionado ao aprendizado de máquina.
 
