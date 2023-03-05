@@ -1,27 +1,10 @@
 
-# Taxi Corrida Maluca - Projeto de Predição de Pedidos de Táxi em Aeroportos
+# Rusty Bargain - Projeto de Modelagem de Preços de Carros Usados
 
-Este projeto tem como objetivo desenvolver um modelo de predição de quantidade de pedidos de táxi para a próxima hora em aeroportos, com base em dados históricos de pedidos coletados pela empresa Taxi Corrida Maluca.
+Este projeto tem como objetivo desenvolver um modelo de machine learning para determinar o valor de mercado de carros usados. Serão utilizados diversos métodos, como regressão linear, árvore de decisão, floresta aleatória e gradient boosting (LightGBM, CatBoost e XGBoost) para comparar a qualidade e a velocidade de cada modelo.
 
-## Dados
-
-Os dados estão armazenados no arquivo "taxi.csv" e contêm informações sobre a quantidade de pedidos de táxi em aeroportos a cada 10 minutos, durante o período de janeiro de 2018 a agosto de 2018. Para criar uma nova amostra com uma hora de diferença, foram selecionados apenas os dados de hora cheia (00 minutos) de cada observação.
-
-A coluna "num_orders" representa a quantidade de pedidos de táxi em cada observação.
-
-## Análise dos Dados
-
-Antes de treinar os modelos, foram realizadas análises exploratórias nos dados para entender melhor as características e padrões dos pedidos de táxi nos aeroportos. Foram observados, por exemplo, padrões sazonais (com aumento da demanda em determinados meses) e uma tendência de crescimento no número de pedidos ao longo do tempo.
-
-## Modelos
-
-Foram treinados diferentes modelos de Machine Learning para realizar a predição da quantidade de pedidos de táxi para a próxima hora. Os modelos foram avaliados com base na métrica REQM (Root Mean Squared Error), e foram utilizados diferentes hiperparâmetros para otimizar o desempenho dos modelos.
-
-Os modelos testados foram:
-
-- Regressão Linear
-- Random Forest
-- XGBoost
+## Dataset
+Os dados utilizados foram fornecidos pelo Rusty Bargain e contém informações sobre carros usados, como histórico, especificações técnicas, versões de acabamento e preços. O dataset é composto por cerca de 100.000 observações e 10 variáveis.
 
 ## Stack utilizada
 
@@ -32,6 +15,12 @@ O projeto foi desenvolvido utilizando a linguagem Python e as seguintes bibliote
 - Seaborn
 - matplotlib
 - sklearn
+- lightgbm
+- catboost
+- xgboost
+
+## Considerações finais
+Este projeto tem como objetivo fornecer um modelo de machine learning para determinar o valor de mercado de carros usados. São utilizados diversos métodos para comparar a qualidade e a velocidade de cada modelo. É importante salientar que, devido ao tamanho do dataset e a complexidade dos modelos, o tempo de execução pode ser significativo.
 
 ## Autores
 
